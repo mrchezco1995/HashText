@@ -64,5 +64,20 @@ namespace HashText
             }
             
         }
+
+        private void btnHash512_Click(object sender, EventArgs e)
+        {
+            //SHA256 Hashing
+            SHA512Managed crypt = new SHA512Managed();
+            StringBuilder hash = new StringBuilder();
+            byte[] crypto = crypt.ComputeHash(Encoding.UTF8.GetBytes(txtPlain.Text));
+            foreach (byte theByte in crypto)
+            {
+                hash.Append(theByte.ToString("x2"));
+            }
+            MessageBox.Show("Your Hash is " + hash.ToString());
+            txtHash.Text = "";
+            txtHash.Text = hash.ToString();
+        }
     }
 }

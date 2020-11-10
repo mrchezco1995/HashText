@@ -37,6 +37,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnGenSalt = new System.Windows.Forms.Button();
             this.btnSaltnHash = new System.Windows.Forms.Button();
+            this.btnHash512 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtPlain
@@ -117,11 +118,22 @@
             this.btnSaltnHash.UseVisualStyleBackColor = true;
             this.btnSaltnHash.Click += new System.EventHandler(this.btnSaltnHash_Click);
             // 
+            // btnHash512
+            // 
+            this.btnHash512.Location = new System.Drawing.Point(275, 279);
+            this.btnHash512.Name = "btnHash512";
+            this.btnHash512.Size = new System.Drawing.Size(171, 23);
+            this.btnHash512.TabIndex = 9;
+            this.btnHash512.Text = "SHA512 HASH";
+            this.btnHash512.UseVisualStyleBackColor = true;
+            this.btnHash512.Click += new System.EventHandler(this.btnHash512_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(707, 450);
+            this.Controls.Add(this.btnHash512);
             this.Controls.Add(this.btnSaltnHash);
             this.Controls.Add(this.btnGenSalt);
             this.Controls.Add(this.label3);
@@ -149,6 +161,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnGenSalt;
         private System.Windows.Forms.Button btnSaltnHash;
+        private System.Windows.Forms.Button btnHash512;
     }
 }
 
