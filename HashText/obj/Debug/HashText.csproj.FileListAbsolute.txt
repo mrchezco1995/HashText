@@ -1,0 +1,10 @@
+D:\source\repos\HashText\HashText\bin\Debug\HashText.exe.config
+D:\source\repos\HashText\HashText\bin\Debug\HashText.exe
+D:\source\repos\HashText\HashText\bin\Debug\HashText.pdb
+D:\source\repos\HashText\HashText\obj\Debug\HashText.csprojAssemblyReference.cache
+D:\source\repos\HashText\HashText\obj\Debug\HashText.Form1.resources
+D:\source\repos\HashText\HashText\obj\Debug\HashText.Properties.Resources.resources
+D:\source\repos\HashText\HashText\obj\Debug\HashText.csproj.GenerateResource.cache
+D:\source\repos\HashText\HashText\obj\Debug\HashText.csproj.CoreCompileInputs.cache
+D:\source\repos\HashText\HashText\obj\Debug\HashText.exe
+D:\source\repos\HashText\HashText\obj\Debug\HashText.pdb
