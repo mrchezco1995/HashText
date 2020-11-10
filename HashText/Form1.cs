@@ -67,7 +67,7 @@ namespace HashText
 
         private void btnHash512_Click(object sender, EventArgs e)
         {
-            //SHA256 Hashing
+            //SHA512 Hashing
             SHA512Managed crypt = new SHA512Managed();
             StringBuilder hash = new StringBuilder();
             byte[] crypto = crypt.ComputeHash(Encoding.UTF8.GetBytes(txtPlain.Text));
